@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        System.out.print("luas kolam = " + (x *y));   //You can also use System.out.println
+    }
+}
