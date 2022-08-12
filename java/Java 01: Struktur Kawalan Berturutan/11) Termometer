@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("###.0");
+        double x = a.nextDouble();
+        double y = (x * 1.8) + 32;
+        if (y == (int)y) {
+            System.out.println((int)y);
+        }else {
+            System.out.println(df.format(y));
+        }
+    }
+}
