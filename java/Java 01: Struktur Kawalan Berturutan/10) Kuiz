@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("###.##");
+        double x = scanner.nextDouble();
+        double y = scanner.nextDouble();
+        double z = (x + y) / 2;
+        System.out.println(df.format(z));
+    }
+}
