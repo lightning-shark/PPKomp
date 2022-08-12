@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        String x = a.nextLine();
+        String y = a.nextLine();
+        System.out.println(x + " labi " + y);
+        System.out.print(y + " labi " + x);   //You can also use System.out.println
+    }
+}
