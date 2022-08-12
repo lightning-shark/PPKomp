@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("##.00");
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
+        double d = scanner.nextDouble();
+        double e = b - a;
+        double f = c * 1.50;
+        double g = (e * 0.8) * (d / 100);
+        System.out.println(df.format(f + g));
+    }
+}
