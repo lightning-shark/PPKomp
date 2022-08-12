@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        int one = a.nextInt();
+        int two = a.nextInt();
+        int result = two - one + 1;
+        System.out.print(result);
+    }
+}
