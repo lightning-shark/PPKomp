@@ -1,0 +1,9 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello semua.");
+        System.out.print("Selamat datang ke Kursus Pengaturcaraan Java.");  //You can also use System.out.println
+    }
+}
